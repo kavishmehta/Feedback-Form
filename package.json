@@ -1,0 +1,18 @@
+{
+  "name": "Feedback_Form",
+  "version": "1.0.0",
+  "description": "Feedback Form using express.js and have functionallity to save data in json file",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js --watch app --ignore feedback.json"
+  },
+  "author": "Kavish Mehta",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "jquery": "^3.1.0",
+    "reload": "^1.0.1"
+  }
+}

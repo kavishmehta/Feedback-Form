@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100, 300);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #C1343F;
+}
+
+.form-control {
+  font-weight: 100;
+  font-size: 1.7rem;
+}
+
+.feedback, .feedback-form-title {
+  font-size: 2rem;
+}
+
+.feedback-form {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+
+.feedback-title {
+  font-size: 1.2em;
+}
+
+.feedback-form-title {
+  font-size: 2em;
+}
+
+.feedback-name {
+  font-size: .6em;
+  font-weight: 100;
+}
+
+.feedback-message {
+  font-weight: 100;
+  font-size: .9em;
+  line-height: 120%;
+  margin-top: 5px;
+}
+
+.feedback-item {
+  border-bottom: 1px solid gray;
+  padding: 8px 0;
+}
+
+.feedback-item:last-of-type {
+  border-bottom: none;
+}
