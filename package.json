@@ -15,9 +15,6 @@
     "jquery": "^3.1.0",
     "reload": "^1.0.1"
   },
-  "engines":{
-    "node": "4.5.0"
-  },
   "repositry": {
 	  "type": "git",
 	  "url": "https://github.com/kavishmehta/Feedback-Form.git"  
