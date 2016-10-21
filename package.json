@@ -2,7 +2,11 @@
   "name": "Feedback_Form",
   "version": "1.0.0",
   "description": "Feedback Form using express.js and have functionallity to save data in json file",
-  "main": "app/app.js",
+  "engines":{
+    "node": "4.5.0",
+    "npm": "2.15.9"  
+  },	
+  "main": "app/app.js",	
   "scripts": {
     "start": "nodemon -e css,ejs,js --watch app --ignore feedback.json"
   },
@@ -16,7 +20,7 @@
     "reload": "^1.0.1"
   },
   "repositry": {
-	  "type": "git",
-	  "url": "https://github.com/kavishmehta/Feedback-Form.git"  
+    "type": "git",
+    "url": "https://github.com/kavishmehta/Feedback-Form.git"  
   }	
 }
